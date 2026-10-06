@@ -15,7 +15,7 @@
 
 python3Packages.buildPythonApplication (finalAttrs: {
   pname = "whisp";
-  version = "1.6.0";
+  version = "1.6.1";
 
   format = "other";
 
@@ -23,7 +23,7 @@ python3Packages.buildPythonApplication (finalAttrs: {
     owner = "tanaybhomia";
     repo = "Whisp";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-ge1yz5h0gj3FFbRJ5aDSuyi8EmCzpT0c9alw9RihyxU=";
+    hash = "sha256-z9RAS+KlvCrDIQhbjmHSKDI0LRmkuMMsky3w3Jdozrs=";
   };
 
   nativeBuildInputs = [
