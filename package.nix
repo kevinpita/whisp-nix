@@ -23,7 +23,7 @@ python3Packages.buildPythonApplication (finalAttrs: {
     owner = "tanaybhomia";
     repo = "Whisp";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-Xb7vqyLC4RyT/bJKSrAfQvdKHpLvRAdtSCpFeyDAO9s=";
+    hash = "sha256-qe/ISrGtQv0hfm5UBKKe5GtmPW52LkdDuuFSh41CTbc=";
   };
 
   nativeBuildInputs = [
